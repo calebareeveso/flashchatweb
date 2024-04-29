@@ -15,8 +15,8 @@ export async function generateMetadata() {
 
 export default function Page({ params }) {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-[#FFFC00]">
-      <div className="h-full py-10 items-center px-2">
+    <main className="flex min-h-screen flex-col items-center justify-between sm:p-24 p-2 bg-[#FFFC00]">
+      <div className="h-full sm:py-10 items-center px-2">
         <div className="max-w-lg mx-auto text-center flex-grow"></div>
         <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
         <p className="text-gray-700 leading-loose">
