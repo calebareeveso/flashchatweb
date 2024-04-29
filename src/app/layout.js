@@ -4,8 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Flashchat",
-  description: "Flashchat app by caleb",
+  title: "Flashchat - By Caleb",
+  description: "Chat about important stuff - flashcards",
 };
 
 export default function RootLayout({ children }) {
