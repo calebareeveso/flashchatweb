@@ -1,5 +1,18 @@
 import Image from "next/image";
 
+export async function generateMetadata() {
+  return {
+    title: "Flashchat - By Caleb",
+    openGraph: {
+      title: "Flashchat - By Caleb",
+      description: "Chat about important stuff - flashcards",
+      images: [
+        `https://res.cloudinary.com/dgdnihwti/image/upload/v1714403399/og_vxjag9.png`,
+      ],
+    },
+  };
+}
+
 export default function Home() {
   // flashchatapp
   return (
